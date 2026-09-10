@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.33.0](https://github.com/indredK/bench/compare/v1.32.0...v1.33.0) (2026-09-10)
+
+
+### Features
+
+* **account-manager:** 实现登录指纹采集与确认 ([c033917](https://github.com/indredK/bench/commit/c033917419171f7d93dbac14504dc5bf70046efa))
+* **account-manager:** 支持登录指纹明细与启动重试 ([808452c](https://github.com/indredK/bench/commit/808452c0ac6b93434e481ee9979f8a9d1867cff0))
+* **account-manager:** 新增登录规则包分发与判定集成 ([ed5b80c](https://github.com/indredK/bench/commit/ed5b80c82dd34201942b689b0461cd45de29f4fc))
+* **account-manager:** 添加账号快照导出功能 ([03b1626](https://github.com/indredK/bench/commit/03b1626b92cecc01fa76e2db4acb8fde516198e6))
+* **account-manager:** 规则包升级为双层体系并新增更新登录逻辑弹窗 ([c3f8650](https://github.com/indredK/bench/commit/c3f865028c52e72b6cd2375f611c3160f82accb2))
+* **account-manager:** 账号状态来源标注支持指纹缺失判定 ([80b8696](https://github.com/indredK/bench/commit/80b869660a8c3cdc5b066ca52d260fe9efb212ab))
+
+
+### Bug Fixes
+
+* **account-manager:** 修复指纹判定误判并优化采样交互 ([7c513e2](https://github.com/indredK/bench/commit/7c513e231c77274f3419d00a939ee0c996bf5546))
+* **account-manager:** 废弃登录页检测改为指纹值形态匹配 ([ee3e043](https://github.com/indredK/bench/commit/ee3e043a8cbf5bfa0b402cba675d083fc77ce944))
+* **session:** 修复域级 cookie 丢失导致登录误判 ([e432db9](https://github.com/indredK/bench/commit/e432db90a7d0a71cb15ff2fb8c0bf7bc7357aca8))
+
 ## [1.32.0](https://github.com/indredK/bench/compare/v1.31.0...v1.32.0) (2026-09-09)
 
 
